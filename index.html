@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Media Post App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Social Media Post App</h1>
+    <div class="post-form">
+      <label for="content">Content:</label>
+      <textarea id="content" rows="5"></textarea>
+      <br>
+      <label>Platforms:</label>
+      <div class="platforms">
+        <input type="checkbox" id="facebook" name="platform" value="facebook">
+        <label for="facebook"></label>
+        <input type="checkbox" id="twitter" name="platform" value="twitter">
+        <label for="twitter"></label>
+        <input type="checkbox" id="instagram" name="platform" value="instagram">
+        <label for="instagram"></label>
+      </div>
+      <button type="submit">Post</button>
+    </div>
+    <div id="response"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
